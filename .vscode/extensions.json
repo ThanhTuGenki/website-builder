@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "dsznajder.es7-react-js-snippets", // ES7 React/Redux/GraphQL/React-Native snippets
+    "esbenp.prettier-vscode", // Prettier - Code formatter
+    "dbaeumer.vscode-eslint" // ESLint
+  ]
+}
