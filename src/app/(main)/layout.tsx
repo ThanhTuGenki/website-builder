@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigation from './_components/Navigation';
 import { ClerkProvider } from '@clerk/nextjs';
 import { dark } from '@clerk/themes';
 
@@ -10,10 +9,7 @@ function layout({ children }: { children: React.ReactNode }) {
         baseTheme: dark,
       }}
     >
-      <main className='h-full'>
-        <Navigation />
-        {children}
-      </main>
+      {children}
     </ClerkProvider>
   );
 }
